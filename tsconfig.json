@@ -29,7 +29,9 @@
       "@/utils/*": ["./src/utils/*"],
       "@/config/*": ["./src/config/*"],
       "@/stores/*": ["./src/stores/*"],
-      "@/app/*": ["./src/app/*"]
+      "@/app/*": ["./src/app/*"],
+      "@/i18n/*": ["./src/i18n/*"],
+      "@/messages/*": ["./messages/*"]
     },
     "forceConsistentCasingInFileNames": true,
     "noImplicitOverride": true,

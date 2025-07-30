@@ -11,7 +11,13 @@
       "Bash(npx tsc:*)",
       "Bash(npx tailwindcss:*)",
       "Bash(grep:*)",
-      "Bash(true)"
+      "Bash(true)",
+      "Bash(mkdir:*)",
+      "Bash(mv:*)",
+      "Bash(npm install:*)",
+      "Bash(echo $env:APPDATA)",
+      "Bash(context7-mcp:*)",
+      "WebFetch(domain:docs.cursor.com)"
     ],
     "deny": []
   }

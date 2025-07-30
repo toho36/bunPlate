@@ -12,9 +12,7 @@ const compat = new FlatCompat({
 const eslintConfig = [
   ...compat.extends(
     "next/core-web-vitals",
-    "next/typescript",
-    "@typescript-eslint/recommended",
-    "prettier"
+    "next/typescript"
   ),
   {
     plugins: {
@@ -92,7 +90,7 @@ const eslintConfig = [
       "object-shorthand": "error",
       "prefer-template": "error",
       "no-duplicate-imports": "error",
-      
+
       // Next.js specific
       "@next/next/no-img-element": "error",
       "@next/next/no-html-link-for-pages": "error",
